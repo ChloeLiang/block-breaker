@@ -1270,7 +1270,8 @@ Prefab:
       propertyPath: paddle
       value: 
       objectReference: {fileID: 1849382025}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_ParentPrefab: {fileID: 100100000, guid: cc549b5f675194567b593c06495cc998, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &1101427797

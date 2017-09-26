@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Ball : MonoBehaviour {
+	public static bool hasStarted = false;
 	private Paddle paddle;
-	private bool hasStarted = false;
 	private Vector3 paddleToBallVector;
 
 	// Use this for initialization
