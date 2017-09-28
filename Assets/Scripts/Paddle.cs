@@ -33,7 +33,7 @@ public class Paddle : MonoBehaviour {
 	}
 
 	void OnCollisionEnter2D(Collision2D collision) {
-		if (Ball.hasStarted) {
+		if (ball.hasStarted) {
 			this.GetComponent<AudioSource>().Play();
 		}
 	}

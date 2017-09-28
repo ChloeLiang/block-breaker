@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Ball : MonoBehaviour {
-	public static bool hasStarted = false;
+	public bool hasStarted = false;
 	private Paddle paddle;
 	private Vector3 paddleToBallVector;
 
